@@ -59,4 +59,38 @@ body {
     margin: 0 auto 30px auto;
     border: 2px solid #61ffca5b;
   }
+  /* Slider container */
+.slider-container {
+    overflow: hidden;
+    background-color: #fff3e6; /* Açık parlak arka plan */
+    border: 2px solid #ff6f61;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 20px auto;
+  }
+  
+  /* Track (kayan alan) */
+  .slider-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 20s linear infinite; /* 20 saniyede tekrar eder */
+  }
+  
+  /* Her bir iş öğesi */
+  .slider-item {
+    background-color: #ff7e5f; /* Parlak arka plan */
+    color: white;
+    padding: 15px 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  
+  /* Animasyon */
+  @keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
   
