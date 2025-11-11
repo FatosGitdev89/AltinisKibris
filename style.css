@@ -1,18 +1,51 @@
+/* Genel ayarlar */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-}
-
-header {
-    background: #4caf99d8;
-    color: rgb(247, 248, 253);
-    padding: 20px;
+    background-color: #fff3e6; /* açık parlak arka plan */
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(90deg, #9fc9c2, #feb47b); /* canlı turuncu geçişli */
+    color: white;
     text-align: center;
-}
-
-section {
+    padding: 50px 20px;
+  }
+  
+  /* Section başlıkları */
+  section h2 {
+    color: #3a7772; /* parlak kırmızı-turuncu */
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* Section içeriği */
+  section p {
+    max-width: 600px;
+    margin: 10px auto 30px auto;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #5ffff2;
+    color: rgba(255, 255, 255, 0.952);
+    text-align: center;
     padding: 20px;
-    margin: 10px;
-}
+  }
+  
+  /* Harita responsive */
+  iframe {
+    width: 90%;
+    max-width: 800px;
+    height: 400px;
+    display: block;
+    margin: 0 auto 30px auto;
+    border: 2px solid #61ffca5b;
+  }
+  
